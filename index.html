@@ -3,9 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Botanic</title>
 </head>
 <body>
-    
+    <header class="header">
+        <a class="header__logo" href="#">Botanic</a>
+        <nav class="header__menu" >
+            <a class="header__menu__shopping" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag-icon lucide-shopping-bag">
+                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    <path d="M3.103 6.034h17.794"></path>
+                    <path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"></path>
+                </svg>
+            </a>
+            <a class="header__menu__signin" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-icon lucide-user">
+                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+            </a>
+            <a class="header__menu__menu" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu">
+                    <path d="M4 5h16"></path>
+                    <path d="M4 12h16"></path>
+                    <path d="M4 19h16"></path>
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero__container">
+            <p class="hero__container__title">
+                DEP. 1924 • PÉPINIÈRE PATRIMOINE
+            </p>
+            <h1 class="hero__container__main-title">
+                Cultiver la Beauté
+            </h1>
+            <p class="hero__container__description">
+                Une collection soignée de spécimens rares et d'essentiels de jardinage, documentée pour les passionnés de botanique moderne.
+            </p>
+            <a href="#" class="hero__container__explore">
+                Explorer la collection
+            </a>
+        </div>
+    </section>
+    <section class="selected-studies">
+        <h2 class="selected-studies__title">
+            Études Sélectionnées
+        </h2>
+        <p class="selected-studies__description">
+            Nos sélections saisonnières sont organisées par habitat et besoins d'entretien, pour que votre jardin s'épanouisse en toute saison.
+        </p>
+        <a href="" class="selected-studies__monographies">
+            Voir toutes les monographies
+        </a>
+        <div class="selected-studies__cards">
+            <div class="selected-studies__cards__card">
+                <img src="https://picsum.photos/id/1068/1400/1200" alt="" class="selected-studies__cards_card__image">
+                <h3 class="selected-studies__cards_card_title">Plantes d'Intérieur</h3>
+                <p class="selected-studies__cards_card_description">
+                    Verdure intérieure
+                </p>
+            </div>
+        </div>
+        <div class="selected-studies__cards">
+            <div class="selected-studies__cards__card">
+                <img src="https://picsum.photos/id/1020/1200/900" alt="" class="selected-studies__cards_card__image">
+                <h3 class="selected-studies__cards_card_title">Plantes d'Intérieur</h3>
+                <p class="selected-studies__cards_card_description">
+                    Verdure intérieure
+                </p>
+            </div>
+        </div>
+        <div class="selected-studies__cards">
+            <div class="selected-studies__cards__card">
+                <img src="https://picsum.photos/id/1060/1200/900" alt="" class="selected-studies__cards_card__image">
+                <h3 class="selected-studies__cards_card_title">Plantes d'Intérieur</h3>
+                <p class="selected-studies__cards_card_description">
+                    Verdure intérieure
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="shop">
+        <h2 class="shop__title">
+            La Boutique
+        </h2>
+        <p class="shop__description">
+            Parcourez nos spécimens soigneusement sélectionnés, des plantes d'intérieur robustes aux variétés rares d'exception.
+        </p>
+        <div class="shop__articles">
+            <div class="shop__articles__article">
+                <img src="https://picsum.photos/id/1011/1200/1600" alt="" class="shop__articles_article_image">
+                <h3 class="shop__articles__article__name">Montsera Deliciosa</h3>
+                <p class="shop__articles__article__description">ARCHIVE NO. 042</p>
+                <p class="shop__articles__article__price">45,00 €</p>
+            </div>
+            <div class="shop__articles__article">
+                <img src="https://picsum.photos/id/1011/1200/1600" alt="" class="shop__articles_article_image">
+                <h3 class="shop__articles__article__name">Montsera Deliciosa</h3>
+                <p class="shop__articles__article__description">ARCHIVE NO. 042</p>
+                <p class="shop__articles__article__price">45,00 €</p>
+            </div>
+            <div class="shop__articles__article">
+                <img src="https://picsum.photos/id/1011/1200/1600" alt="" class="shop__articles_article_image">
+                <h3 class="shop__articles__article__name">Montsera Deliciosa</h3>
+                <p class="shop__articles__article__description">ARCHIVE NO. 042</p>
+                <p class="shop__articles__article__price">45,00 €</p>
+            </div>
+            <div class="shop__articles__article">
+                <img src="https://picsum.photos/id/1011/1200/1600" alt="" class="shop__articles_article_image">
+                <h3 class="shop__articles__article__name">Montsera Deliciosa</h3>
+                <p class="shop__articles__article__description">ARCHIVE NO. 042</p>
+                <p class="shop__articles__article__price">45,00 €</p>
+            </div>
+            <div class="shop__articles__article">
+                <img src="https://picsum.photos/id/1011/1200/1600" alt="" class="shop__articles_article_image">
+                <h3 class="shop__articles__article__name">Montsera Deliciosa</h3>
+                <p class="shop__articles__article__description">ARCHIVE NO. 042</p>
+                <p class="shop__articles__article__price">45,00 €</p>
+            </div>
+            <div class="shop__articles__article">
+                <img src="https://picsum.photos/id/1011/1200/1600" alt="" class="shop__articles_article_image">
+                <h3 class="shop__articles__article__name">Montsera Deliciosa</h3>
+                <p class="shop__articles__article__description">ARCHIVE NO. 042</p>
+                <p class="shop__articles__article__price">45,00 €</p>
+            </div>
+            <div class="shop__articles__article">
+                <img src="https://picsum.photos/id/1011/1200/1600" alt="" class="shop__articles_article_image">
+                <h3 class="shop__articles__article__name">Montsera Deliciosa</h3>
+                <p class="shop__articles__article__description">ARCHIVE NO. 042</p>
+                <p class="shop__articles__article__price">45,00 €</p>
+            </div>
+            <div class="shop__articles__article">
+                <img src="https://picsum.photos/id/1011/1200/1600" alt="" class="shop__articles_article_image">
+                <h3 class="shop__articles__article__name">Montsera Deliciosa</h3>
+                <p class="shop__articles__article__description">ARCHIVE NO. 042</p>
+                <p class="shop__articles__article__price">45,00 €</p>
+            </div>
+        </div>
+    </section>
+    <section class="monography">
+        <h2 class="monography__title">Notre Monographie</h2>
+        <p class="monography__quote">"Les spécimens que j'ai reçus de Verdant Archival n'étaient pas seulement des plantes ; c'étaient des chefs-d'œuvre de la nature, expertement préservés et emballés. Ma serre n'a jamais été aussi distinguée."</p>
+        <hr>
+        <p class="monography__credit">ELEANOR THORNE, CONSERVATRICE EN CHEF</p>
+        <div class="monography__history">
+            <h3 class="monography__history__title">
+                L'Héritage dans Chaque Feuille
+            </h3>
+            <p class="monography__history__description">
+                Fondée en 1924, notre pépinière a commencé comme un petit centre d'études botaniques. Aujourd'hui, nous poursuivons cet héritage en recherchant des variétés rares et anciennes, et en fournissant les outils spécialisés nécessaires aux soins des plantes de qualité archivistique.
+                Nous croyons qu'un jardin est un museum vivant, et que chaque jardinier est un conservateur du monde naturel. Notre mission est de fournir les plus beaux spécimens et les connaissances nécessaires pour vous aider à construire vos propres archives verdoyantes.
+            </p>
+            <a href="" class="monography__history_link">Notre histoire</a>
+        </div>
+    </section>
+    <section class="join">
+        <h2 class="join__title">
+            Rejoignez la Verdure
+        </h2>
+        <p class="join__description">
+            Recevez notre monographie botanique mensuelle, nos guides de plantation saisonniers et nos invitations aux ateliers.
+        </p>
+        <form action="" class="join__form">
+            <input type="email" class="join__form__email" placeholder="Adresse e-mail" >
+            <button class="join__form__button">S'Abonner</button>
+        </form>
+    </section>
+    <footer class="footer" >
+        <h2 class="footer__title">Botanic</h2>
+        <p class="footer__description">
+            Fournisseurs de spécimens botaniques de qualité et d'essentiels de jardinage d'exception depuis 1924.
+        </p>
+        <div class="footer__share-links">
+            <a href="#" class="footer__share-links__url"></a>
+            <a href="#" class="footer__share-links__email"></a>
+            <a href="#" class="footer__share-links__other"></a>
+        </div>
+        <div class="footer__rquests">
+            <h3 class="footer__requets__title">Demandes</h3>
+            <a href="#" class="footer__requests__contacts">Contact</a>
+            <a href="#" class="footer__requests__delivery">Livraison</a>
+            <a href="#" class="footer__requests__returns">Retours</a>
+            <a href="#" class="footer__requests__faq">FAQ Soins des Plantes</a>
+        </div>
+        <div class="footer__follow">
+            <h3 class="footer__follow__title">Suivez-nous</h3>
+            <a href="#" class="footer__follow__instagram">Instagram</a>
+            <a href="#" class="footer__follow__pinterest">Pinterest</a>
+            <a href="#" class="footer__follow__newsletter">Newsletter</a>
+            <a href="#" class="footer__follows__newspaper">Journal</a>
+        </div>
+        <p class="footer__address">
+            PÉPINIÈRE PHARE
+            1248 Forest Floor Path
+            Botanical District, VT 05401
+        </p>
+        <p class="footer__copyright">
+            © 2024 Monographie Botanique. Tous droits réservés.
+        </p>
+    </footer>
 </body>
 </html>
