@@ -8,6 +8,7 @@
 
     --clr-neutral-000: #fff;
     --clr-neutral-100: #fdf9ef;
+    --clr-neutral-200: #f1eee3;
 
     --ff-base: "Manrope", sans-serif;
     
@@ -17,6 +18,7 @@
     --fs-200: 1.125rem;
     --fs-250: 1.25rem;
     --fs-300: 1.5rem;
+    --fs-350: 1.9rem;
     --fs-400: 2.25rem;
     
     --fw-400: 400;
@@ -108,6 +110,8 @@ body{
 
 .selected-studies{
     padding-inline: 2rem;
+
+    margin-bottom: 6rem;
 }
 
 .selected-studies__title{
@@ -173,4 +177,56 @@ body{
     font-size: 0.6rem;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+.shop{
+    background-color: var(--clr-neutral-200);
+
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    padding-inline: 2rem;
+}
+
+.shop__title{
+    color: var(--clr-primary-300);
+    font-size: var(--fs-350);
+    font-family: serif;
+
+    margin-bottom: 2rem;
+}
+
+.shop__description{
+    line-height: 1.5;
+
+    margin-bottom: 3rem;
+}
+
+.shop__articles_article_image{
+    margin-bottom: 1.5rem;
+}
+
+.shop__articles__article__detials__name{
+    font-family: serif;
+    color: var(--clr-primary-300);
+    font-size: var(--fs-200);
+
+    margin-bottom: 1rem;
+}
+
+.shop__articles__article_details{
+    display: flex;
+
+    justify-content: space-between;
+    
+    margin-bottom: 2rem;
+}
+
+.shop__articles__article__details__description{
+    font-size: var(--fs-000);
+    letter-spacing: 1px;
+}
+
+.shop__articles__article__details__price{
+    font-weight: var(--fw-700);
+    font-size: var(--fs-050);
 }
