@@ -9,7 +9,8 @@
     --clr-neutral-000: #fff;
     --clr-neutral-100: #fdf9ef;
     --clr-neutral-200: #f1eee3;
-
+    --clr-neutral-300: #dddad0;
+    
     --ff-base: "Manrope", sans-serif;
     
     --fs-000: 0.75rem;
@@ -229,4 +230,90 @@ body{
 .shop__articles__article__details__price{
     font-weight: var(--fw-700);
     font-size: var(--fs-050);
+}
+
+.monography{
+    text-align: center;
+    padding-block: 4rem;
+
+    background-color: var(--clr-neutral-300);
+    padding-inline: 1.5rem;
+}
+
+.monography__title{
+    text-transform: uppercase;
+    font-size: var(--fs-000);
+    letter-spacing: 4px;
+    color: var(--clr-primary-100);
+    
+    margin-bottom: 2rem;
+}
+
+.monography__quote{
+    font-family: serif;
+    font-style: italic;
+    color: var(--clr-primary-300);
+    font-size: var(--fs-300);
+
+    margin-bottom: 2rem;
+}
+
+.monography__credit{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+
+     margin-bottom: 2rem;
+}
+
+.monography__credit > hr{
+    height: 1px;
+    width: 2rem;
+    background-color: var(--clr-primary-200);
+
+}
+
+.monography__credit__text{
+    font-size: 0.63rem;
+    letter-spacing: 1px;
+}
+
+.monography__history{
+    background-color: var(--clr-neutral-100);
+
+    padding: 1.5rem;
+}
+
+.monography__history__title{
+    font-family: serif;
+    font-size: var(--fs-350);
+
+    margin-bottom: 2rem;
+}
+
+.monography__history__description{
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+.monography__history_link{
+    display: block;
+
+    text-transform: uppercase;
+    color: var(--clr-neutral-000);
+    font-size: var(--fs-000);
+    letter-spacing: 1px;    
+
+    background-color: var(--clr-primary-100);
+
+    padding-block: 0.75rem;
+
+    width: 100%;
+}
+
+.monography__history_link:hover{
+    background-color: var(--clr-primary-300);
 }
