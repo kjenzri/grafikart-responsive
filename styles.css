@@ -5,6 +5,7 @@
     --clr-primary-100: #566342;
     --clr-primary-200: #566342c2;
     --clr-primary-300: #23422a;
+    --clr-primary-400: #acd0af;
 
     --clr-neutral-000: #fff;
     --clr-neutral-100: #fdf9ef;
@@ -316,4 +317,61 @@ body{
 
 .monography__history_link:hover{
     background-color: var(--clr-primary-300);
+}
+
+.join{
+    background-color: var(--clr-primary-300);
+
+    color: var(--clr-primary-400);
+
+    padding-inline: 1.5rem;
+    padding-block: 5rem;
+}
+
+.join__title{
+    font-family: serif;
+    font-size: var(--fs-350);
+    color: var(--clr-neutral-000);
+
+    margin-bottom: 1.5rem;
+}
+
+.join__description{
+    line-height: 1.7;
+
+    margin-bottom: 2rem;
+}
+
+.join__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.join__form__email{
+    border: none;
+    height: 3rem;
+
+    color: var(--clr-primary-400);
+
+    
+
+    background-color: #ffffff10;
+}
+
+.join__form__email:focus{
+    outline-color: var(--clr-primary-400);
+    outline-style: solid;
+    outline-width: 2px;
+}
+
+.join__form__email::placeholder{
+    color: #acd0afb1;
+}
+
+.join__form__button{
+    background-color: var(--clr-neutral-000);
+    height: 3rem;
+    color: var(--clr-primary-300);
+    text-transform: uppercase;
+    font-weight: var(--fw-700);
 }
