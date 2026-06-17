@@ -375,3 +375,47 @@ body{
     text-transform: uppercase;
     font-weight: var(--fw-700);
 }
+
+.footer{
+    text-align: center;
+    line-height: 1.7;
+    font-size: var(--fs-050);
+    color: var(--clr-primary-000);
+    
+    padding-block: 3rem;
+    padding-inline: 6rem;
+    
+    background-color: var(--clr-neutral-300);
+
+}
+
+.footer__title{
+    font-family: serif;
+    font-size: var(--fs-250);
+
+    margin-bottom: 1.5rem;
+}
+
+.footer__description{
+    margin-bottom: 1.5rem;
+}
+
+.footer__share-links{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+    margin-bottom: 3rem;
+}
+
+.footer__links{
+    display: flex;
+    gap: 4rem;
+}
+
+.footer__links__rquests, .footer__links__follow{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 3rem;
+}
