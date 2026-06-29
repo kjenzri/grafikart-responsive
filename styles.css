@@ -411,6 +411,8 @@ body{
 .footer__links{
     display: flex;
     gap: 4rem;
+    justify-content: space-between;
+
 }
 
 .footer__links__rquests, .footer__links__follow{
@@ -418,4 +420,18 @@ body{
     flex-direction: column;
 
     margin-bottom: 3rem;
+}
+
+.footer__links__requets__title, .footer__links_follow__title{
+    font-family: serif;
+    font-weight: var(--fw-700);
+}
+
+.footer__address{
+    margin-bottom: 2rem;
+}
+
+.footer__address > span{
+    letter-spacing: 1px;
+    font-size: var(--fs-000);
 }
